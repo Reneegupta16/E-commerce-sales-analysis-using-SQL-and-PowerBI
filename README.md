@@ -89,3 +89,8 @@ Which product line generated the highest revenue?
 In which city was the highest revenue recorded?
 
 Which product line incurred the highest Value Added Tax?
+
+
+
+![Sales by City](PowerBI_visuals/sales_by_city.png)
+
