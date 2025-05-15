@@ -1,30 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>E-commerce Sales Analysis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Sales Analysis – SQL & Power BI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial; margin: 2em; background: #f7f7f7; }
-    img { max-width: 100%; height: auto; }
-    h1 { color: #333; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f9fbff, #f2f6fc);
+      color: #2c3e50;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 40px 50px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+    h1 {
+      font-size: 2.6rem;
+      color: #1f4788;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #2c3e50;
+    }
+    p, li {
+      line-height: 1.7;
+      font-size: 1.1rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    img {
+      max-width: 100%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.03);
+    }
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background-color: #1f78d1;
+      color: #fff;
+      font-size: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #155fa0;
+    }
+    .section-divider {
+      border-top: 2px solid #e6eaf0;
+      margin: 40px 0;
+    }
   </style>
 </head>
 <body>
-  <h1>E-commerce Sales Analysis (SQL + Power BI)</h1>
-  <p>Analyzed 1,000+ sales records across 3 cities using SQL and Power BI to identify sales trends, customer behavior, and revenue performance.</p>
+  <div class="container">
+    <h1>📊 E-commerce Sales Analysis</h1>
+    <p><strong>Tools:</strong> SQL, Power BI, Excel</p>
+    <p>This project explores Amazon-style retail sales across 3 major cities in Myanmar using SQL and Power BI. With 1,000+ records from branches A, B, and C, the project identifies sales trends, customer behavior, and top-performing products and branches with visually impactful dashboards.</p>
 
-  <h2>🔍 Project Insights</h2>
-  <ul>
-    <li>Data cleaning & transformation in SQL</li>
-    <li>Identified top-performing products and branches</li>
-    <li>Visualized revenue, ratings, and VAT using Power BI</li>
-  </ul>
+    <div class="section-divider"></div>
 
-  <h2>📊 Power BI Visuals</h2>
-  <img src="assets/visuals1.png" alt="Sales by City">
-  <img src="assets/visuals2.png" alt="Revenue Trends">
+    <h2>🚀 Highlights</h2>
+    <ul>
+      <li>Cleaned, transformed, and analyzed structured data using SQL</li>
+      <li>Discovered high-revenue product lines and customer behavior patterns</li>
+      <li>Built Power BI dashboards showcasing trends in ratings, COGS, VAT, and payment methods</li>
+      <li>Identified optimal sales timings and branch-wise performance</li>
+    </ul>
 
-  <h2>📎 GitHub Repo</h2>
-  <p><a href="https://github.com/Reneegupta16/E-commerce-sales-analysis-using-SQL-and-PowerBI" target="_blank">View Full Repository</a></p>
+    <div class="section-divider"></div>
+
+    <h2>📊 Dashboard Visuals</h2>
+    <img src="assets/visuals1.png" alt="Sales Distribution by City">
+    <img src="assets/visuals2.png" alt="Revenue Trend by Branch">
+    <img src="assets/visuals3.png" alt="Ratings and Product Performance">
+
+    <a href="https://github.com/Reneegupta16/E-commerce-sales-analysis-using-SQL-and-PowerBI" target="_blank" class="button">🔗 View Full Project on GitHub</a>
+
+    <div class="section-divider"></div>
+
+    <h2>🧠 Questions Answered</h2>
+    <ul>
+      <li>Which city generated the highest revenue?</li>
+      <li>What is the most preferred payment method?</li>
+      <li>Which product line incurred the highest VAT?</li>
+      <li>Which branch performs best by month and overall?</li>
+      <li>What customer types and genders shop the most?</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <p><strong>⭐ Bonus:</strong> This project highlights my ability to combine data storytelling with technical execution — an ideal mix for roles in consulting, product analytics, and strategy.</p>
+  </div>
 </body>
 </html>
